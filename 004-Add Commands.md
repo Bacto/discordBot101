@@ -1,3 +1,5 @@
+- In addition to the Discord token, we know need the "Client ID" to be able to use commands. Go to your Discord bot setting and retrieve the client ID. Put it in your `.env` file, in a variable name `DISCORD_CLIENT_ID`
+
 - In `src/app.js`, update the line where the `discord.js` library is loaded (via the `require` function. Add `REST` and `Routes` to it (in addition to `Client`, `Events` and `GatewayIntentBits`)
 
 - Before the `client.login` command, add this code:
