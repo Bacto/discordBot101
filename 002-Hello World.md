@@ -2,6 +2,7 @@
 
 - Update Node.js:
 ```bash
+asdf plugin update nodejs
 asdf nodejs update-nodebuild
 asdf install nodejs `asdf nodejs resolve lts --latest-available`
 asdf global nodejs `asdf nodejs resolve lts --latest-available`
