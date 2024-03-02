@@ -1,0 +1,4 @@
+- Create an account on Stackhero
+- Start a Code-Hero service
+- Connect to it
+- Install the app (via the browser "install app" option)
