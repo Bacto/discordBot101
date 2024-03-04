@@ -9,7 +9,7 @@ require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 
 // Create a bot
-const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, {polling: true});
+const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
@@ -28,3 +28,5 @@ Congrats, you have create your first Telegram bot!
 Now, speak with BotFather to create a new Telegram bot named "Bodja" and store its token to the Node.js service on Stackhero, using the environment variable "TELEGRAM_BOT_TOKEN".
 
 Congrats, you now have 2 Telegram bots. One for the development platform and one for the production!
+
+You can now delete the file `src/example-telegram.js`. It was just and example.
