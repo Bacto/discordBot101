@@ -34,6 +34,14 @@ Your current bot is now officially the development one.
 1. Invite your production bot to Adrien's server
 
 
+Edit your `package.json` file and add this:
+```json
+  "scripts": {
+    "start": "node src/app.js"
+  }
+```
+
+
 ## Deploy your bot to production
 
 You know have 2 bots, one called "Bodja" for production and one called "[DEV] Bodja".
